@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+:root{
+    --cor-principal:#4B69FD;
+    --font-primaria:'Lexend Deca', sans-serif;
+}
+.header{
+    background-color: var(--cor-principal);
+    display: flex;
+    border: 2px;
+    width: 97.5em;
+    height: 22em;
+    justify-content: center;
+  
+}
+.text{
+    display: flex;
+    font-family: var(--font-primaria);
+    padding:5em 10em 15em 0;
+    max-width: 10em;
+}
+.dado{
+    padding: 1em 1em 0 10em;
+}
